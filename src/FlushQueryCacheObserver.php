@@ -69,7 +69,7 @@ class FlushQueryCacheObserver
      * @return void
      * @throws Exception
      */
-    protected function invalidateCache(Model $model): void
+    protected function invalidateCache(Model $model)
     {
         $class = get_class($model);
 
