@@ -201,12 +201,8 @@ trait QueryCacheModule
     public function flushQueryCacheWithTag(string $tag): bool
     {
         $cache = $this->getCacheDriver();
-
-        try {
-            return $cache->tags($tag)->flush();
-        } catch (BadMethodCallException $e) {
-            return;
-        }
+        $cache->tags($tag)->flush();
+        return true;
     }
 
     /**
