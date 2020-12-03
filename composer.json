@@ -1,6 +1,6 @@
 {
     "name": "megaads/laravel-query-cache",
-    "description": "Model caching.",
+    "description": "Laravel model caching.",
     "keywords": ["laravel", "caching", "eloquent", "remember", "query", "sql"],
     "homepage": "https://github.com/megaads-vn/laravel-eloquent-query-cache",
     "authors": [
